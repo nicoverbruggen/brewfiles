@@ -1,0 +1,32 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+
+# MAS support
+brew "mas" 							# Mac App Store
+
+# Applications
+cask "latest"						# App update checker
+cask "carbon-copy-cloner"			# System cloner
+cask "coconutbattery"				# Battery statistics
+cask "firefox"						# Browser
+cask "visual-studio-code"			# Code editor
+cask "iterm2"						# Terminal
+cask "obs"							# Broadcasting software
+cask "keepassxc"					# Password manager
+cask "keka"							# Unarchiving software
+
+## Apple Apps
+mas "Keynote", id: 409183694		# Presentation software
+mas "Numbers", id: 409203825		# Spreadsheet software
+mas "Pages", id: 409201541			# Work processor software
+mas "iMovie", id: 408981434			# Movie editor
+
+## Mac App Store apps
+mas "Amphetamine", id: 937984704	# Keep the system awake
+mas "Sequel Ace", id: 1518036000	# Database editor
+
+## Optional: Enable when required
+# cask "libreoffice"				# Office productivity suite
+# mas "Xcode", id: 497799835		# IDE

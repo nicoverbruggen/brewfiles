@@ -1,0 +1,66 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "nicoverbruggen/cask"
+
+# Homebrew packages
+brew "mas"
+brew "ncdu"
+brew "node"
+brew "tree"
+brew "dnsmasq", restart_service: true
+brew "mysql@5.7", restart_service: true
+brew "nginx", restart_service: true
+brew "php", restart_service: true
+
+# Cask-installable apps
+cask "anki"
+cask "bartender"
+cask "carbon-copy-cloner"
+cask "coconutbattery"
+cask "daisydisk"
+cask "discord"
+cask "dropbox"
+cask "forecast"
+cask "latest"
+cask "libreoffice"
+cask "phpmon"
+cask "phpstorm"
+cask "firefox"
+cask "transmit"
+cask "visual-studio-code"
+cask "sublime-merge"
+cask "sublime-text"
+cask "iterm2"
+cask "scapple"
+cask "scrivener"
+cask "paw"
+cask "keepassxc"
+cask "keka"
+
+## Apple apps
+mas "Pages", id: 409201541
+mas "Numbers", id: 409203825
+mas "Keynote", id: 409183694
+mas "iMovie", id: 408981434
+mas "GarageBand", id: 682658836
+mas "Xcode", id: 497799835
+
+## Free
+mas "Sequel Ace", id: 1518036000
+mas "LittleIpsum", id: 405772121
+mas "Amphetamine", id: 937984704
+
+## Paid apps
+mas "Things", id: 904280696
+mas "Tweetbot", id: 1384080005
+mas "Pastebot", id: 1179623856
+mas "Ulysses", id: 1225570693
+mas "1Blocker", id: 1107421413
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+mas "Affinity Publisher", id: 881418622
+mas "iA Writer", id: 775737590
+mas "Image2icon", id: 992115977
+mas "MediaInfo", id: 510620098
