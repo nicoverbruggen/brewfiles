@@ -30,6 +30,7 @@ cask "keka"
 cask "imageoptim"
 cask "iina"
 cask "obs"
+cask "macs-fan-control"
 
 # Paid apps
 cask "scapple"

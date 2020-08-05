@@ -18,6 +18,7 @@ cask "keepassxc"					# Password manager
 cask "keka"							# Unarchiving software
 cask "imageoptim"					# Image compression tool
 cask "iina"							# Video playback
+cask "macs-fan-control"				# Fan speed adjustment, temp check
 
 ## Apple Apps
 mas "Keynote", id: 409183694		# Presentation software
