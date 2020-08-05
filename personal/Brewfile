@@ -34,6 +34,7 @@ cask "macs-fan-control"
 cask "alfred"
 
 # Paid apps
+cask "1password"
 cask "scapple"
 cask "scrivener"
 cask "istat-menus"
