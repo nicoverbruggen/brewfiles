@@ -31,6 +31,7 @@ cask "imageoptim"
 cask "iina"
 cask "obs"
 cask "macs-fan-control"
+cask "alfred"
 
 # Paid apps
 cask "scapple"
