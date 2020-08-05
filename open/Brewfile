@@ -16,6 +16,8 @@ cask "iterm2"						# Terminal
 cask "obs"							# Broadcasting software
 cask "keepassxc"					# Password manager
 cask "keka"							# Unarchiving software
+cask "imageoptim"					# Image compression tool
+cask "iina"							# Video playback
 
 ## Apple Apps
 mas "Keynote", id: 409183694		# Presentation software
